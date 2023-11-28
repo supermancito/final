@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precios</title>
+    <link rel="stylesheet" href="precios.css" />
+    <script src="precios.js"></script>
+
+    
+</head>
+<body>
+    <header>
+        <h2>Precios de Paletas</h2>
+    </header>
+    <body>
+        <form>
+            
+            <span>
+                Nombre: <input type="text" id="n1" name="n1" placeholder="Nombre" required>*
+            </span>
+        <br>
+      
+        <br>
+            <span>
+                Numero de telefono: <input  type="number" name="numero:" required>*
+            </span>
+        <br>
+        <br>
+            <span>
+                Paleta: <select name="pais" class="pais">
+                    <option value="" selected="selecte" hidden="hidden">  </option>
+                    <option value="1">Bullpadel</option>
+                    <option value="2">Nox </option>
+                    <option value="3">Adidas </option>
+                    </select>
+            </span>
+        <br>
+        <br>
+            <span>Estacion: <input type="checkbox"> Principiante</span>
+            <span><input type="checkbox"> intermedio</span>
+            <span><input type="checkbox"> Avanzado</span>
+        <br>
+        <br>
+            <button type="button" onclick="calcularPrecio()" id="formulario">Calcular</button>
+            <br>
+            <br>
+            
+            <button type="button" onclick="borrarDatos()" id="formulario">borrar</button>
+        </form>
+        <div id="resultado"></div>
+        <br>
+        <br>
+        <i>   <button> <a href="index.html" target="blank"> Regresar</a> </button>
+</body>
+</html>

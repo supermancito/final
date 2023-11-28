@@ -1,0 +1,47 @@
+body{
+    background-color: #968b8b;
+}
+h2{
+    text-align:left;
+  }
+  button#formulario{
+    padding: 5px 40px;
+    color: white;
+    font-size:1em ;
+    background-color: #5dade2;
+    transition:background-color .25s;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px #5d6de2;
+    margin-left: 75px;
+  }
+  #formulario:hover{
+  background-color: rgb(0, 221, 255);
+  }
+  form{
+    background-color: rgb(179, 225, 165);
+    border-radius: 10px;
+    color: #6a5e5e;
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+  }
+  .edad{
+    padding: 2px 10px;
+    width: 24px;
+    height: 10px;
+    margin-left: 22px;
+    
+  }
+  .dni{
+    padding: 2px 10px;
+    width: 100px;
+    height: 10px;
+    margin-left: 25px;
+  }
+  .email{
+    margin-left: 16px;
+  }
+  .pais{
+    margin-left: 29px;
+  }

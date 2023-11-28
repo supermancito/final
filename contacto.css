@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./imagenes/pexels-lluis-aragones-4536850.jpg'); /* Reemplaza 'tu_imagen_de_fondo.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* Cambia el color del texto según tu preferencia */
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(34, 12, 12, 0.8); /* Fondo semi-transparente blanco para el formulario */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.972);
+}
+
+span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #89a1b1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #dc0909;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
